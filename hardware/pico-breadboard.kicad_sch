@@ -6225,8 +6225,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9289373d-03da-4e7b-9345-af6e016b64cd")
-		(property "Reference" "U2"
-			(at 179.578 144.78 0)
+		(property "Reference" "BREADBOARD"
+			(at 174.752 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6273,7 @@
 		(instances
 			(project ""
 				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
-					(reference "U2")
+					(reference "BREADBOARD")
 					(unit 1)
 				)
 			)
