@@ -2,7 +2,7 @@
 
 This is a simple Raspberry Pi Pico breadboard kit designed for students to learn and experiment with basic electronics and microcontroller programming.
 
-![Pico Breadboard](pico-breadboard.png)
+![Pico Breadboard](render.png)
 
 ## Features
 
