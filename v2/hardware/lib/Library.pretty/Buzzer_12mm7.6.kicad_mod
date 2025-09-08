@@ -1,4 +1,4 @@
-(footprint "Buzzer_15x7.5RM7.6"
+(footprint "Buzzer_12mm7.6"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -9,7 +9,7 @@
 		(at 3.81 -8.89 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "691e9886-71f6-4101-8c59-8ed3c57bede7")
+		(uuid "86d9bd68-5b28-46e8-8360-e326f6b33cfe")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 3.81 8.89 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c3cef73-d594-4dbd-a6a5-1d36e338433c")
+		(uuid "9bd0b0b4-7806-49ec-892c-5acd1f87adcb")
 		(effects
 			(font
 				(size 1 1)
@@ -29,12 +29,12 @@
 			)
 		)
 	)
-	(property "Footprint" "Buzzer_Beeper:Buzzer_15x7.5RM7.6"
+	(property "Footprint" "Library:Buzzer_12mm7.6"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "22448f06-353a-4feb-8f2c-a495674c730d")
+		(uuid "8d48af41-d182-4d0a-8fde-4a521272abaa")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c5ae9a6f-95ef-4243-90bc-7a1a8204b024")
+		(uuid "070532a0-4038-4b66-9ba8-552426387fae")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "da927c5a-2ea1-4713-9ac3-777e46099596")
+		(uuid "73ae845c-3199-4c3c-801f-53cefd60f351")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,25 +71,25 @@
 	(attr through_hole)
 	(fp_circle
 		(center 3.8 0)
-		(end 11.4 0)
+		(end 9.8 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "84612ca8-7374-46c1-bdd3-e24529ff10aa")
+		(uuid "102eb035-60a8-4ebb-8e30-6da4744b1cff")
 	)
 	(fp_circle
 		(center 3.8 0)
-		(end 11.55 0)
+		(end 9.9 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "7fe4ffec-1271-4179-9bef-f4f1643f0ef1")
+		(uuid "27aa6e30-b236-499b-9be3-c2ac412b0cca")
 	)
 	(fp_circle
 		(center 3.8 0)
@@ -100,34 +100,23 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "afce8acd-38e2-44b0-b585-c5dfd3aa2aa4")
+		(uuid "60b2b482-ceba-42fa-9ce8-079e43858bc0")
 	)
 	(fp_circle
 		(center 3.8 0)
-		(end 11.3 0)
+		(end 9.8 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "05418ae9-8895-48bd-872e-b0d5d0d8841e")
+		(uuid "72bdd53b-7814-4b8d-a348-63c02fa3b6c7")
 	)
 	(fp_text user "+"
 		(at -0.01 -2.54 180)
 		(layer "F.SilkS")
-		(uuid "d49a874e-1ee0-4d75-9a4a-cb201aab7af9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "+"
-		(at -0.01 -2.54 180)
-		(layer "F.Fab")
-		(uuid "b6f3a96b-08c6-4f06-886e-26a6ecb37995")
+		(uuid "a3c22a6e-9bd5-4207-868d-6e340d8e3410")
 		(effects
 			(font
 				(size 1 1)
@@ -138,7 +127,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 3.8 -4 180)
 		(layer "F.Fab")
-		(uuid "f3bc94c3-5f96-46d0-bc3a-19369f237657")
+		(uuid "3976ae2e-c654-4dce-925d-6cb60839339f")
 		(effects
 			(font
 				(size 1 1)
@@ -146,13 +135,35 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(fp_text user "+"
+		(at -0.01 -2.54 180)
+		(layer "F.Fab")
+		(uuid "81c3a987-7c93-4033-89c5-ea79617dca99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a4e84d4d-70c1-4c68-af8d-7f796f3bca05")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "69aeec9c-51b8-457b-82a1-6f44e4d560c0")
 	)
 	(pad "2" thru_hole circle
 		(at 7.6 0)
@@ -160,17 +171,28 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ae8c0d05-7c11-4617-aa2e-494c1a572fe4")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "81f4d14e-45b0-4946-8a20-588ee5474317")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_15x7.5RM7.6.wrl"
+	(model "${KIPRJMOD}/lib/Library.3dmodels/Buzzer_5V.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 3.8 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 180)
 		)
 	)
 )
