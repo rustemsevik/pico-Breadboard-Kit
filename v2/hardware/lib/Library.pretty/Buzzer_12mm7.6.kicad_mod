@@ -9,7 +9,7 @@
 		(at 3.81 -8.89 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "28db66d7-e338-4693-8c7a-3a885ba1e232")
+		(uuid "12a3011a-3dfb-43ea-b7e0-4e06d9145a40")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 3.81 8.89 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3ed24fa-9478-426c-bd74-88b18ca78a94")
+		(uuid "2b3d739f-dc7b-4b77-9e5e-b270736cc337")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a538320b-2877-40df-bec5-ec0dab692ee8")
+		(uuid "fbf35d30-42fe-48a9-a385-29b70afa48fe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8ded09ae-8b48-4510-89f6-4bca633ccc28")
+		(uuid "8c0a4c1f-01eb-4d57-9f33-e03364567291")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "baa68edf-f209-4103-be1c-fba0886e859d")
+		(uuid "5fba4b93-039f-4b2a-8f55-ba5e3965fbdc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +78,7 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "796c220d-367b-46b1-8b23-daff68ab7752")
+		(uuid "c67be4ed-4172-40d5-a667-3893489e36d7")
 	)
 	(fp_circle
 		(center 3.8 0)
@@ -89,7 +89,7 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "123c0f32-8d77-49be-9c3e-333528aa5448")
+		(uuid "14bbab72-834f-4d2f-9e71-78be5e7bece3")
 	)
 	(fp_circle
 		(center 3.8 0)
@@ -100,7 +100,7 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "8362b612-ffad-4b4d-9342-80bc41d3ac6e")
+		(uuid "da846547-4322-4a36-bfe6-6b6bf576f73b")
 	)
 	(fp_circle
 		(center 3.8 0)
@@ -111,12 +111,23 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "24f5d623-9e9e-4810-aa60-3172876efaf8")
+		(uuid "b31ed450-0298-40ea-a81f-63f0865ca45d")
 	)
 	(fp_text user "+"
 		(at -0.01 -2.54 180)
 		(layer "F.SilkS")
-		(uuid "676bc0f9-c9ae-4746-8f4d-a193fa84e6e6")
+		(uuid "6769402f-bdaa-42b6-b26a-fd538303a924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -0.01 -2.54 180)
+		(layer "F.Fab")
+		(uuid "48d5ff01-af60-40e0-8ce4-fd484bf39296")
 		(effects
 			(font
 				(size 1 1)
@@ -127,18 +138,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 3.8 -4 180)
 		(layer "F.Fab")
-		(uuid "1c90ccae-9899-4f56-8d15-1a5214c52b55")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "+"
-		(at -0.01 -2.54 180)
-		(layer "F.Fab")
-		(uuid "2ae223fe-6c66-4ff2-8451-c29fed6880b6")
+		(uuid "81cd0be9-fa8b-4900-8d3e-cad20dc8a0fb")
 		(effects
 			(font
 				(size 1 1)
@@ -163,7 +163,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1c02ffb0-0f37-4ca2-a063-8da3b936349d")
+		(uuid "703cb201-2e9a-4d4a-ba1e-c2631d22b583")
 	)
 	(pad "2" thru_hole circle
 		(at 7.6 0)
@@ -182,7 +182,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "2fb8ac10-f558-4ed9-bcd5-6fb815188d79")
+		(uuid "1ba5d713-839d-48c3-9c2c-15b3c2a5ad72")
 	)
 	(model "${KIPRJMOD}/lib/Library.3dmodels/Buzzer_5V.STEP"
 		(offset
