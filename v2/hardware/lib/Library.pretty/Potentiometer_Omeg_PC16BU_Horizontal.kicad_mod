@@ -9,7 +9,7 @@
 		(at 0 -14.7 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8fe45507-a216-454e-a0aa-b3b36a097b0e")
+		(uuid "a7ef4960-6acf-4671-9a76-c12d9729af07")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 4.7 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f885fcee-9d8e-4f5a-be20-4602d68c7614")
+		(uuid "3d828fe7-bfbb-4d99-8d79-b345fa1c2952")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "616c3614-cff1-402c-95b8-fefedd84e0a3")
+		(uuid "7429c463-c30f-446e-bf7b-f814bc08e554")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "15e85dca-5586-4d26-be55-3e017ff5ea9e")
+		(uuid "766027f4-a86e-4803-8b2f-3f42c83db502")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f1cd1213-d1c6-4b5d-8202-70ac280491f3")
+		(uuid "2439e9d0-3faa-4290-8cf9-1fb9e3b91ddc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +78,7 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "0a6bb5db-064d-475d-83da-d1f4f48cc5bb")
+		(uuid "2aae7c66-2966-460c-abe8-77ec8abf6b59")
 	)
 	(fp_rect
 		(start 6 -3)
@@ -89,12 +89,12 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "7b028065-5994-4c11-80ee-f39364b22d08")
+		(uuid "0ee91c64-fc35-42cb-b008-a0e3882346bb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 1.65 -5 0)
 		(layer "F.Fab")
-		(uuid "4af5b06f-d5fc-47ca-81dd-eee89ab812b0")
+		(uuid "761afff3-ff83-4574-b5f5-a98f3828dfd2")
 		(effects
 			(font
 				(size 1 1)
@@ -108,7 +108,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f757e591-65ab-4b5c-88d5-d98cb8b77530")
+		(uuid "d24a597a-a428-4a02-9989-ea18f4af2ae6")
 	)
 	(pad "2" thru_hole circle
 		(at 0 0)
@@ -116,7 +116,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b059dc6e-80a4-476d-8816-2e7ea886d36b")
+		(uuid "dea9a33b-c678-48f3-a42c-a8e6446cfd43")
 	)
 	(pad "3" thru_hole circle
 		(at 0 -5.08)
@@ -124,7 +124,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3479456f-86b1-4bd5-aa8c-f62fd6e059d7")
+		(uuid "123610ef-4c8f-494b-bc7c-e7254f4b28e3")
 	)
 	(model "${KIPRJMOD}/lib/Library.3dmodels/Potentiomètre 10K.STEP"
 		(offset

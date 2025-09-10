@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b2c0c3c5-7c3e-4445-8546-2dfd56286670")
+		(uuid "5d330455-6c6a-49d5-9c90-27a166a5bf81")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6b18fbe1-439a-40c3-af16-5bc9ed846f54")
+		(uuid "6f25c683-de66-4971-89ef-aa2f3a204826")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a667c41-003c-4d18-8a80-653138c5787a")
+		(uuid "2cc3f795-a722-46f9-a211-973516f14138")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5e35e02f-231b-4c2d-a0cc-fc41626dead6")
+		(uuid "76ce5021-151d-49a0-b7f0-d0641e586025")
 		(effects
 			(font
 				(size 1 1)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "01da5ecb-0419-4496-8ad0-d54e32ed2a14")
+		(uuid "f1f28e09-cf15-4c50-8722-c6b706da7c2a")
 		(effects
 			(font
 				(size 1 1)
@@ -78,13 +78,13 @@
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "6a896264-597e-4e8a-a097-bb14e90f7cb9")
+		(uuid "5d34fed1-0df6-473c-8bc2-f23d2794966f")
 	)
 	(fp_text user "BREADBOARD"
 		(at 40 27.5 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "5d17b7c5-ed96-4b8a-8377-a58751f7b40d")
+		(uuid "6fe994e3-c4ce-4480-a552-efcef6cdaaf0")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -97,7 +97,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "84cd177e-5a51-44f9-bf37-149a39f14591")
+		(uuid "1659f939-2f8c-42a0-aaef-e6366086216b")
 		(effects
 			(font
 				(size 1 1)

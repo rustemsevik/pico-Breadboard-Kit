@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.6 180)
 		(layer "F.SilkS" knockout)
-		(uuid "dd3bfa27-5c1a-4a58-a780-376eea28a532")
+		(uuid "53fd4ec4-ad16-4256-80a4-715bf5bb7a8a")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED"
 		(at 0 1.43 180)
 		(layer "F.Fab")
-		(uuid "663958f2-164d-4de8-a081-38e56c4e9d29")
+		(uuid "42683eb2-ec44-42e7-ab7d-1d96431dd7f4")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1460e16-d0f7-40dd-8d49-29557d271709")
+		(uuid "e32f4120-68f2-4843-82c0-9dabf74d7473")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "67a37e17-8437-4bb3-b886-70402dec6922")
+		(uuid "8c164fc9-c92c-4679-980d-9022688c236d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d9255ff6-d64a-4d5f-9963-5f4a04efba90")
+		(uuid "7bb93ab7-8bee-482e-856f-82116c95b302")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -75,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "802a7325-fb84-492a-81eb-30003ab91e7e")
+		(uuid "c6f416db-396f-4c0c-b960-a821532a8d0a")
 	)
 	(fp_line
 		(start -1.485 0.735)
@@ -85,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bc8282b9-d135-438c-8ddd-150381200026")
+		(uuid "d2f68902-7a6f-45e9-8f13-7b7e3abdfe86")
 	)
 	(fp_line
 		(start 0.8 -0.735)
@@ -95,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b5a2e1d1-c507-4390-8b16-bdab1f0beeed")
+		(uuid "ec59860e-0cfa-46ad-a1f3-22c48647078f")
 	)
 	(fp_line
 		(start -1.48 -0.73)
@@ -105,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1c51deff-55ff-4635-a3fc-44288db69b09")
+		(uuid "65b73256-a1d3-43fe-a17a-210923b85b5f")
 	)
 	(fp_line
 		(start -1.48 0.73)
@@ -115,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e2152057-4af9-4e10-ada5-3ebd78531329")
+		(uuid "1ed8c3f7-2682-4d68-9f60-405e8791ae8c")
 	)
 	(fp_line
 		(start 1.48 -0.73)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e556344e-419e-4eac-8b1c-7e8d9b5847e3")
+		(uuid "34bf4f1d-fc78-47bc-a666-58fb333e2e3d")
 	)
 	(fp_line
 		(start 1.48 0.73)
@@ -135,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ce31ff3f-60ce-4fa9-8197-4d53882946b8")
+		(uuid "4a69711f-c031-4f71-b26e-52ea544258ba")
 	)
 	(fp_line
 		(start -0.8 -0.1)
@@ -145,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0aef7f07-d021-46a7-a24d-eb0df660587e")
+		(uuid "95dcf4ab-06c4-4201-9d8a-c2f39b8966a0")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -155,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fbfc48da-2cbc-478d-927d-cfb3b4e5b041")
+		(uuid "aad6dcc9-c32c-43fa-ab86-2f8699a5892e")
 	)
 	(fp_line
 		(start -0.5 -0.4)
@@ -165,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "83eeac38-f237-4d5f-9fc0-fab9a3e56caa")
+		(uuid "38957260-ec84-455a-9928-49c1dc334653")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -175,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0355ede7-636a-46bf-bbf5-a60af3cd04d0")
+		(uuid "e85dd474-073a-4f59-b706-f38f47befb84")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -185,12 +185,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "060af527-2e98-4a71-96d2-b3fc6aabd446")
+		(uuid "ec9d5570-a82a-4b90-bc9d-43ec4cc95f31")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "a1139668-c5ad-461e-af25-533b19a5f934")
+		(uuid "6dccd5d9-95c8-4589-b6c5-de6f825fa4de")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -214,7 +214,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "fbbabf87-7022-4c01-8f41-137f463a03d5")
+		(uuid "e6219e31-0830-46a2-979c-16810199d116")
 	)
 	(pad "2" smd roundrect
 		(at 0.7875 0)
@@ -232,9 +232,9 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8e3319e0-bb23-489f-bbfd-5c914719cf30")
+		(uuid "6a09f181-a70a-4171-a081-8807f1261746")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+	(model "${KIPRJMOD}/lib/Library.3dmodels/LED_0603_1608Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
