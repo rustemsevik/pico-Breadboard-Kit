@@ -5,6 +5,203 @@
 	(uuid "8dc432d0-705f-48a2-b043-b7130b9baf7d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Top_Bottom"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Top_Bottom_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Library:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -4432,6 +4629,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 44.45) (xy 193.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d6d4f4-55c6-4cb3-a20b-f0902e40a2ed")
+	)
+	(wire
+		(pts
 			(xy 186.69 63.5) (xy 186.69 66.04)
 		)
 		(stroke
@@ -5392,6 +5599,16 @@
 		)
 		(uuid "37d53673-531d-4c84-9ee5-68358bee8106")
 	)
+	(label "T1"
+		(at 173.99 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e081cc4-4d17-44e3-8232-1677dd1a48b0")
+	)
 	(label "GPIO10"
 		(at 175.26 132.08 180)
 		(effects
@@ -5411,6 +5628,16 @@
 			(justify left bottom)
 		)
 		(uuid "49849c3a-341c-429c-b377-e4b1f33b1aa0")
+	)
+	(label "T2"
+		(at 173.99 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b6f84f0-c653-4c26-9649-268836ebab67")
 	)
 	(label "GPIO11"
 		(at 175.26 134.62 180)
@@ -5493,7 +5720,7 @@
 		(uuid "621f0392-052c-4d37-99eb-8049788fa5b5")
 	)
 	(label "SDA"
-		(at 185.42 39.37 0)
+		(at 173.99 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5523,7 +5750,7 @@
 		(uuid "694d42eb-9895-412c-ab9b-db2f54cbfc49")
 	)
 	(label "SCL"
-		(at 185.42 41.91 0)
+		(at 173.99 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6012,6 +6239,16 @@
 		)
 		(uuid "efd18dd3-2f2c-4c00-a108-0e9776630827")
 	)
+	(label "T2"
+		(at 205.74 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0a33dc4-7eca-41f5-99c5-8c485e7b25d7")
+	)
 	(label "GPIO19"
 		(at 77.47 137.16 0)
 		(effects
@@ -6021,6 +6258,16 @@
 			(justify left bottom)
 		)
 		(uuid "f54ebac4-c1f8-4fea-8464-96f42b92e141")
+	)
+	(label "T1"
+		(at 193.04 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f68e24b4-6edc-4d8e-adb4-0907d584845d")
 	)
 	(label "GPIO11"
 		(at 41.91 134.62 180)
@@ -6500,6 +6747,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 200.66 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f880db0-6a32-43f7-860a-5439ae52e124")
+		(property "Reference" "J13"
+			(at 198.374 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polarity Select"
+			(at 198.882 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14aadbcd-7055-4741-aadf-3ce272454379")
+		)
+		(pin "2"
+			(uuid "979887f9-af64-450b-9c19-053ce915e74a")
+		)
+		(pin "4"
+			(uuid "199594f7-eaa6-4056-8389-8997173da976")
+		)
+		(pin "3"
+			(uuid "22417885-255d-4a82-a4b8-ee8b65689ae0")
+		)
+		(instances
+			(project "pico-breadboard"
+				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:Conn_01x04")
 		(at 255.27 43.18 0)
 		(mirror y)
@@ -6904,73 +7224,6 @@
 			(project "pico-breadboard"
 				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
 					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:+3.3V")
-		(at 185.42 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e6089e7-3604-484d-8eab-3ee90e012659")
-		(property "Reference" "#PWR019"
-			(at 181.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 189.23 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 185.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f650ae28-361b-4d1f-b25a-b23344cc445f")
-		)
-		(instances
-			(project "pico-breadboard"
-				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7642,7 @@
 	)
 	(symbol
 		(lib_id "Library:Conn_01x04")
-		(at 180.34 44.45 180)
+		(at 168.91 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7397,7 +7650,7 @@
 		(dnp no)
 		(uuid "41b1d253-7b95-448a-8a97-ba1962b8963f")
 		(property "Reference" "J8"
-			(at 177.8 44.4501 0)
+			(at 166.37 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7659,7 @@
 			)
 		)
 		(property "Value" "SCREEN CONNECTOR"
-			(at 189.23 35.56 0)
+			(at 177.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7668,7 @@
 			)
 		)
 		(property "Footprint" "Library:PinHeader_1x04_P2.54mm_Vertical"
-			(at 180.34 44.45 0)
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7424,7 +7677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 44.45 0)
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,7 +7686,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 44.45 0)
+			(at 168.91 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,6 +8648,72 @@
 			(project "pico-breadboard"
 				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND")
+		(at 205.74 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bda0e69-9c4c-4ba7-bc64-35d699dfb2ff")
+		(property "Reference" "#PWR12"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94d53f63-90be-4212-9d60-b34114a0f670")
+		)
+		(instances
+			(project "pico-breadboard"
+				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -10268,17 +10587,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:GND")
-		(at 185.42 46.99 90)
+		(lib_id "Library:+3.3V")
+		(at 191.77 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0315cbf-0618-4326-913f-89044ddc4cb2")
-		(property "Reference" "#PWR020"
-			(at 191.77 46.99 0)
+		(uuid "ddde5fa2-e994-4aab-9e44-12aa56f64cc4")
+		(property "Reference" "#PWR11"
+			(at 195.58 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10286,17 +10605,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 189.23 46.9899 90)
+		(property "Value" "+3.3V"
+			(at 187.96 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 46.99 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 46.99 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,8 +10632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10323,12 +10642,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d319a752-0ab0-4d5a-a54b-26816d00b801")
+			(uuid "15a6b22c-d2a3-45ed-9f42-ef41638e9543")
 		)
 		(instances
 			(project "pico-breadboard"
 				(path "/8dc432d0-705f-48a2-b043-b7130b9baf7d"
-					(reference "#PWR020")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
