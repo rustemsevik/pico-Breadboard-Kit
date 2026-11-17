@@ -1,0 +1,286 @@
+(footprint "SOT-23"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "REF**"
+		(at 0 2.8 -90)
+		(layer "F.SilkS" knockout)
+		(uuid "2c830a67-db5b-4a91-8726-c48e7afc58e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BC817"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c696e15-016a-46b4-8eb4-41af724441fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PicoBreadboard:SOT-23"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff223499-8b01-4440-a7e8-12dab9225ce2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59024bb3-4f67-4fce-b759-4ac32bdb89d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a9332e7-cbc1-4d74-a88b-35af7c3fa7af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -1.56)
+		(end -0.65 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cfae6cc-1bca-4db7-b138-48261a8f3c7a")
+	)
+	(fp_line
+		(start 0 -1.56)
+		(end 0.65 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10b83c29-2e17-4213-b559-7bf1d4c5a5b0")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end -0.65 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a8b82f4-ebff-468b-a9cd-5931ad22408f")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end 0.65 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a879df16-eed4-4369-994a-ad4e5020577c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1625 -1.51) (xy -1.4025 -1.84) (xy -0.9225 -1.84) (xy -1.1625 -1.51)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "da64e16f-5c96-4f62-a758-7a258045a05f")
+	)
+	(fp_line
+		(start -1.92 -1.7)
+		(end -1.92 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8bcbc1a-cbd3-4901-b236-cd407843b0ae")
+	)
+	(fp_line
+		(start -1.92 1.7)
+		(end 1.92 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4564f255-cc03-45b6-9a0d-94990a8e1972")
+	)
+	(fp_line
+		(start 1.92 -1.7)
+		(end -1.92 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b697106-57f0-44dd-8e5d-2bd3871402d1")
+	)
+	(fp_line
+		(start 1.92 1.7)
+		(end 1.92 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "717b0483-4058-4675-925b-0d91ac1b4591")
+	)
+	(fp_line
+		(start -0.65 -1.125)
+		(end -0.325 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fdf4ae4-77d4-4434-b7b4-4437d7d23e6b")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a23a54c-6356-458e-9ea1-c3600b9afe00")
+	)
+	(fp_line
+		(start -0.325 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12b9e493-9966-4ae2-8c7a-bc93464be27e")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7be971fb-f1c5-470a-b46c-bb01433c6c50")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86539b69-eab2-4738-8b8c-17a66806d38e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f52a9b4a-f6ee-4301-9c6b-4137c2ba4f1e")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9375 -0.95)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "2397e97c-10f1-4a54-88d0-7c84363cd39b")
+	)
+	(pad "2" smd roundrect
+		(at -0.9375 0.95)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c87fb82a-52b0-49dc-b29d-20a375b135e0")
+	)
+	(pad "3" smd roundrect
+		(at 0.9375 0)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b0fe92bf-6f37-4e2d-982b-8e06dcf453f2")
+	)
+	(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

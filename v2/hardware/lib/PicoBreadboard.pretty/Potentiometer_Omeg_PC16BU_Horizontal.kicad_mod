@@ -1,0 +1,155 @@
+(footprint "Potentiometer_Omeg_PC16BU_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Omeg PC16BU, http://www.omeg.co.uk/pc6bubrc.htm")
+	(tags "Potentiometer horizontal Omeg PC16BU")
+	(property "Reference" "REF**"
+		(at 0 -14.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "911297fa-51a8-42f5-8b8c-9acfddd05f55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_Potentiometer"
+		(at 0 4.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08cf81a8-0daf-464f-8926-50d2e181a03b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PicoBreadboard:Potentiometer_Omeg_PC16BU_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b10bbebd-f3c6-4e08-930e-c059d19172c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5cb58b6-0b69-4141-ae7b-ec04822b96b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67265770-ebac-4146-9ea6-fb2ec845bd53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 -10)
+		(end 6 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cf9950ac-1da6-4903-81e0-f189551c85dc")
+	)
+	(fp_rect
+		(start 6 -3)
+		(end 12 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "91f50179-fe0d-4fac-bc72-3c0f5fd4888d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.65 -5 0)
+		(layer "F.Fab")
+		(uuid "026e164e-2fd5-47ef-bb68-ca0e64eccc08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.08)
+		(size 2 2)
+		(drill 0.914)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "d90db8d7-d3cf-4d3e-8e99-d570b700334a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.914)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "c99716a5-5adf-4b79-b3b9-d83d61a8dd5f")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5.08)
+		(size 2 2)
+		(drill 0.914)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "0dad293b-8213-4ab1-89ba-13cceb5058ed")
+	)
+	(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/Potentiometer_Omeg_PC16BU_Horizontal.step"
+		(offset
+			(xyz 3.25 0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 -90)
+		)
+	)
+)

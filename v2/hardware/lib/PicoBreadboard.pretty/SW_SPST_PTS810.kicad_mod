@@ -1,0 +1,363 @@
+(footprint "SW_SPST_PTS810"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
+	(tags "SPST Button Switch")
+	(property "Reference" "REF**"
+		(at 0 -2.6 180)
+		(layer "F.SilkS" knockout)
+		(uuid "252f2f79-32b5-480b-9c85-05b5c4c02f48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPST"
+		(at 2 2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2a21325-9f06-47c5-8688-56df7827eaa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PicoBreadboard:SW_SPST_PTS810"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac5e6e84-e9c4-4289-900a-28674592c409")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c32bf637-c03a-4e25-856d-1d59445e4111")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single Pole Single Throw (SPST) switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68635ef8-1b43-4ea7-9f03-65598ce28524")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.7)
+		(end -2.2 -1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0da74e34-6359-448e-8615-7b4c0ade65ab")
+	)
+	(fp_line
+		(start -2.2 -0.57)
+		(end -2.2 0.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0e7629a-c2b8-4926-972a-707f533dc3ad")
+	)
+	(fp_line
+		(start -2.2 1.58)
+		(end -2.2 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18a680fc-90d0-447e-8ed6-57af67945bb4")
+	)
+	(fp_line
+		(start -2.2 1.7)
+		(end 2.2 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2a137f3-5ac8-4914-b68e-e12ff5c7831d")
+	)
+	(fp_line
+		(start 2.2 -1.7)
+		(end -2.2 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c9c3f4e-5711-48e9-8586-e7e4389352d9")
+	)
+	(fp_line
+		(start 2.2 -1.58)
+		(end 2.2 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4814dc5-370c-4f97-8307-ea6b800228a7")
+	)
+	(fp_line
+		(start 2.2 0.57)
+		(end 2.2 -0.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "974cb770-4669-40aa-9767-698fc362b25d")
+	)
+	(fp_line
+		(start 2.2 1.7)
+		(end 2.2 1.58)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01fa98da-524f-401b-939b-2778b7ab330b")
+	)
+	(fp_line
+		(start -2.85 -1.85)
+		(end 2.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eed282bd-690e-4a4d-88ab-0b2f0cba3351")
+	)
+	(fp_line
+		(start -2.85 1.85)
+		(end -2.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ad2e952-8f08-474f-8ef4-ab540f1170da")
+	)
+	(fp_line
+		(start 2.85 -1.85)
+		(end 2.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b35fb1e-6245-45f3-9875-664b63253d38")
+	)
+	(fp_line
+		(start 2.85 1.85)
+		(end -2.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ee37259-7a65-4a37-8e30-b8a45d2e487d")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13796e26-680e-4798-be2a-28eec0064f17")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ae06854-4942-424a-8420-244f3148bb3f")
+	)
+	(fp_line
+		(start -0.4 -1.1)
+		(end 0.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6116843b-c471-46e7-8990-3f98b9e460af")
+	)
+	(fp_line
+		(start 0.4 1.1)
+		(end -0.4 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b287f695-c719-4fe3-af21-4d04be179691")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ae9d939-b925-4f40-b7dc-7480a7cf8bf8")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "264a16d4-9f96-4ed0-91c2-8867fb6833ab")
+	)
+	(fp_arc
+		(start -0.4 1.1)
+		(mid -1.5 0)
+		(end -0.4 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cc8edfc-f5af-4251-a060-faa7fe895e6d")
+	)
+	(fp_arc
+		(start 0.4 -1.1)
+		(mid 1.5 0)
+		(end 0.4 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3bfa474-d287-4262-8016-45671535c34e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "1a56ab14-e959-40fd-b282-88d659fc0dd5")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7b6f1438-7cc5-4b5d-a228-5df2c0565e5e")
+	)
+	(pad "1" smd rect
+		(at 2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "477049f9-31b0-4ae5-99e6-573806b953d7")
+	)
+	(pad "2" smd rect
+		(at -2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "af42fe53-6c41-43d0-bfe1-7945346f13a2")
+	)
+	(pad "2" smd rect
+		(at 2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "27bede11-66f9-4365-9921-f844e70907b1")
+	)
+	(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SW_SPST_PTS810.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

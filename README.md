@@ -28,6 +28,12 @@ This is a Raspberry Pi Pico breadboard kit designed for students to learn and ex
 4. Use the built-in components (buttons, LEDs, buzzer, potentiometer, rotary encoder, servos) to test your logic.  
 5. Connect external devices (screen, MPU6050, Neopixel) via the dedicated headers.  
 
+## Opening the Design Files
+
+The hardware is designed in **KiCad 10** and will not open in older versions. Open [`v2/hardware/pico-breadboard.kicad_pro`](v2/hardware/pico-breadboard.kicad_pro).
+
+All symbols, footprints and 3D models are included in the project library [`v2/hardware/lib/`](v2/hardware/lib) (`PicoBreadboard`), so the project works right after cloning, with no library setup.
+
 ## Schematic
 
 See the included [`v2/pico-breadboard.pdf`](v2/pico-breadboard.pdf) for the detailed wiring.

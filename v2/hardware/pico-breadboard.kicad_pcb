@@ -93,7 +93,7 @@
 			(outputdirectory "GERBER/")
 		)
 	)
-	(footprint "Library:Potentiometer_Omeg_PC16BU_Horizontal"
+	(footprint "PicoBreadboard:Potentiometer_Omeg_PC16BU_Horizontal"
 		(layer "F.Cu")
 		(uuid "01eb3bd3-7cd5-408c-b964-6c11d80a7107")
 		(at 182.15 84.85)
@@ -222,7 +222,7 @@
 			(uuid "61fe4230-4310-4045-aeaa-74fcf6f45dba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/Potentiomètre 10K.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/Potentiometer_Omeg_PC16BU_Horizontal.step"
 			(offset
 				(xyz 3.25 0 12.5)
 			)
@@ -234,7 +234,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x12_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x12_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "03ca0df5-276c-4449-8539-5409fbdff700")
 		(at 110.475 38.25 90)
@@ -702,7 +702,7 @@
 			(uuid "1490594f-5492-4882-9005-6d3d8c9ea041")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x12_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -714,7 +714,7 @@
 			)
 		)
 	)
-	(footprint "Library:LED_0603_1608Metric"
+	(footprint "PicoBreadboard:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "042dfdc3-e83d-4648-a69e-f12a614af98b")
 		(at 142.8625 116.85 180)
@@ -948,7 +948,7 @@
 			(uuid "02db65ac-12b4-4054-84e5-27c2b137b476")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/LED_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -960,7 +960,7 @@
 			)
 		)
 	)
-	(footprint "Library:SOT-23"
+	(footprint "PicoBreadboard:SOT-23"
 		(layer "F.Cu")
 		(uuid "04500bce-de89-4470-9bf1-f84be405ba11")
 		(at 153.05 119.7125 90)
@@ -1237,7 +1237,7 @@
 			(uuid "cd9fdc0d-fa91-4442-a7d4-fa1c8a632be4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/SOT-23.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1249,7 +1249,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_3mm"
+	(footprint "PicoBreadboard:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "0764e192-650d-400c-8efe-0ab454f2cefe")
 		(at 87.65 129.85)
@@ -1375,7 +1375,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:MountingHole_3mm"
+	(footprint "PicoBreadboard:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "286993d0-a463-4aa4-a0ec-af037ca62a47")
 		(at 181.65 129.85)
@@ -1501,7 +1501,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:Fiducial_1mm_Mask2mm"
+	(footprint "PicoBreadboard:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "2ba52638-759b-4a21-a816-c8de0169618d")
 		(at 100.9 38.35)
@@ -1606,7 +1606,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SW_SPST_PTS810"
+	(footprint "PicoBreadboard:SW_SPST_PTS810"
 		(layer "F.Cu")
 		(uuid "2c4a6153-dd9a-43fa-b8bc-115f622ed778")
 		(at 151.449293 128.875707 180)
@@ -1959,7 +1959,7 @@
 			(uuid "49599223-360a-4d98-a4be-491f2c79296a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PTS810SJS250.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SW_SPST_PTS810.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1971,7 +1971,7 @@
 			)
 		)
 	)
-	(footprint "Library:SW_SPST_PTS810"
+	(footprint "PicoBreadboard:SW_SPST_PTS810"
 		(layer "F.Cu")
 		(uuid "2f4a321f-a30d-43a0-8133-5411b3a75161")
 		(at 163.449293 128.875707 180)
@@ -2325,7 +2325,7 @@
 			(uuid "a34b4f63-6b91-4c67-adc5-14846599eb25")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PTS810SJS250.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SW_SPST_PTS810.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2337,7 +2337,7 @@
 			)
 		)
 	)
-	(footprint "Library:LED_0603_1608Metric"
+	(footprint "PicoBreadboard:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "312ce752-042f-4db2-86ed-df4182b769b8")
 		(at 142.8625 102.85 180)
@@ -2571,7 +2571,7 @@
 			(uuid "ea00be8b-6cc2-4866-8fc2-206cc43e95b6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/LED_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2583,7 +2583,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0402_1005Metric"
+	(footprint "PicoBreadboard:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3187fd58-f8ea-4829-8116-bc3b1a9535eb")
 		(at 145.2625 120.35 90)
@@ -2797,7 +2797,7 @@
 			(uuid "f4f66a59-c125-4e44-bb28-23ac9c55e9fc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2809,7 +2809,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_3mm"
+	(footprint "PicoBreadboard:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "336e4829-de79-463f-a991-0d2492d49cdf")
 		(at 181.65 35.85)
@@ -2935,7 +2935,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:PinHeader_1x11_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3dfc821d-aedb-4ff1-8737-081223b23e7a")
 		(at 109.88 97.85 90)
@@ -3381,7 +3381,7 @@
 			(uuid "4f4dea41-1ab3-4599-aef9-c1a4eb39911a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x11_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x11_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3393,7 +3393,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0402_1005Metric"
+	(footprint "PicoBreadboard:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4243c4cb-ac09-42a9-80b4-87817f7f40db")
 		(at 152.05 123.45 90)
@@ -3605,7 +3605,7 @@
 			(uuid "847a88af-5d53-43ba-882e-9405fd9465cb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3617,7 +3617,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x05_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4608c26d-ccb2-46e2-a60c-c4fbc8d77767")
 		(at 151.69 98.05 90)
@@ -3931,7 +3931,7 @@
 			(uuid "4ac23424-9ae1-407e-b6e0-b14a4da83830")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x05_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3943,7 +3943,7 @@
 			)
 		)
 	)
-	(footprint "Library:SW_SPST_PTS810"
+	(footprint "PicoBreadboard:SW_SPST_PTS810"
 		(layer "F.Cu")
 		(uuid "5c5b9285-cd5f-4313-a191-20f513d6d2f3")
 		(at 175.449293 128.875707 180)
@@ -4297,7 +4297,7 @@
 			(uuid "00b35b4f-3f5d-46a6-8ebb-9771a490607d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PTS810SJS250.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SW_SPST_PTS810.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4309,7 +4309,7 @@
 			)
 		)
 	)
-	(footprint "Library:RPi_Pico_SMD_TH"
+	(footprint "PicoBreadboard:RPi_Pico_SMD_TH"
 		(layer "F.Cu")
 		(uuid "644144f2-4d5b-4a7a-acc8-4fe77b1c9b13")
 		(at 111.15 114.35 90)
@@ -5647,7 +5647,7 @@
 			(uuid "01628b4a-6257-4a62-9ad5-94b81bef104c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PICO_PinsDown.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/RPi_Pico_SMD_TH.step"
 			(offset
 				(xyz -10.5 -25.5 7)
 			)
@@ -5659,7 +5659,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
 		(layer "F.Cu")
 		(uuid "6cc9f13a-1ce7-4239-8d77-9752c48dcd40")
 		(at 131.61 129.35 90)
@@ -5951,7 +5951,7 @@
 			(uuid "69187cab-b4d2-41c1-8ffb-54292345261a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5963,7 +5963,7 @@
 			)
 		)
 	)
-	(footprint "Library:LED_0603_1608Metric"
+	(footprint "PicoBreadboard:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6d664070-d7f5-4405-8ae8-d7e894389e88")
 		(at 142.8625 123.85 180)
@@ -6197,7 +6197,7 @@
 			(uuid "8704ec34-40ab-416d-be78-ebc1bd2dc740")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/LED_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6209,7 +6209,7 @@
 			)
 		)
 	)
-	(footprint "Library:Fiducial_1mm_Mask2mm"
+	(footprint "PicoBreadboard:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "6d7fca99-ad53-4615-a75b-7d6cb2333268")
 		(at 176.828572 124.1)
@@ -6314,7 +6314,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6e4c6a1d-bfc2-40f2-a1fa-51b6c9a3bcf3")
 		(at 89.15 82.85)
@@ -6626,7 +6626,7 @@
 			(uuid "c7dbd59d-1849-4bf0-8f24-cabf486fb192")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6638,7 +6638,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
 		(layer "F.Cu")
 		(uuid "86b7b7c1-cf77-4fd8-a8a1-726758247f28")
 		(at 120.37 129.45 -90)
@@ -6930,7 +6930,7 @@
 			(uuid "4bb8fe71-cd72-4ed3-bf31-1d6043aa309e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6942,7 +6942,7 @@
 			)
 		)
 	)
-	(footprint "Library:Breadboard"
+	(footprint "PicoBreadboard:Breadboard_Half"
 		(layer "F.Cu")
 		(uuid "8cbcc168-c407-4ef2-937c-bfda3d4986fe")
 		(at 92.65 40.85)
@@ -7040,7 +7040,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/HalfBreadboard.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/Breadboard_Half.step"
 			(offset
 				(xyz 42 14.5 5)
 			)
@@ -7052,7 +7052,7 @@
 			)
 		)
 	)
-	(footprint "Library:LED_0603_1608Metric"
+	(footprint "PicoBreadboard:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8de86ee5-ec23-4c7c-9b06-9151346a94c2")
 		(at 142.8625 109.85 180)
@@ -7286,7 +7286,7 @@
 			(uuid "ff334f12-ef3f-4a0a-bd55-883871d37cae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/LED_0603_1608Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7298,7 +7298,7 @@
 			)
 		)
 	)
-	(footprint "Library:Buzzer_12mm7.6"
+	(footprint "PicoBreadboard:Buzzer_D12.0mm_P7.60mm"
 		(layer "F.Cu")
 		(uuid "8ea8f1d1-8052-47e3-88fd-35914e7d20cc")
 		(at 161.85 107.85 180)
@@ -7482,7 +7482,7 @@
 			(uuid "f98d76b3-eaf6-4c6f-a00c-5012f281c699")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/Buzzer_5V.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/Buzzer_D12.0mm_P7.60mm.step"
 			(offset
 				(xyz 3.8 0 0)
 			)
@@ -7494,7 +7494,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b5570a72-bc4c-462f-8d16-de246bc901f5")
 		(at 181.45 45.45)
@@ -7784,7 +7784,7 @@
 			(uuid "4279883b-04e1-4fbb-b8ee-0f1514aebc25")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7796,7 +7796,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b74cc7b3-79b6-4937-b9f3-8ec849e588c1")
 		(at 181.45 65.05)
@@ -8086,7 +8086,7 @@
 			(uuid "e2b405de-0002-4940-8be6-1651b99c455e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8098,7 +8098,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ba430f29-bb68-44d9-b735-92d75387171b")
 		(at 89.15 64.85)
@@ -8410,7 +8410,7 @@
 			(uuid "5885fcf8-30e5-4670-ba8d-c78f1f219e1c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8422,7 +8422,7 @@
 			)
 		)
 	)
-	(footprint "Library:Fiducial_1mm_Mask2mm"
+	(footprint "PicoBreadboard:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "bb71a3d2-0f6c-46a6-89e4-377de31f7768")
 		(at 105.3 129.45)
@@ -8527,7 +8527,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SW_SPST_PTS810"
+	(footprint "PicoBreadboard:SW_SPST_PTS810"
 		(layer "F.Cu")
 		(uuid "c171e136-4def-46a1-9338-e6655ecd8c49")
 		(at 163.449293 120.875707 180)
@@ -8881,7 +8881,7 @@
 			(uuid "bc10c8a1-1dae-4d5a-b025-2d67d3ed07e7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PTS810SJS250.STEP"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/SW_SPST_PTS810.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8893,7 +8893,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0402_1005Metric"
+	(footprint "PicoBreadboard:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cb9d7a7f-1c2b-439f-8984-a337d4f15f74")
 		(at 145.2625 113.35 90)
@@ -9107,7 +9107,7 @@
 			(uuid "48e8fa62-be03-439d-ad31-1b8fb6a72c25")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9119,7 +9119,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cfa9773d-9469-48a1-8a8a-d7de7c31e2a6")
 		(at 89.15 46.85)
@@ -9431,7 +9431,7 @@
 			(uuid "4b3c1a65-7122-4146-a4ab-f238cc33672c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9443,7 +9443,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
 		(layer "F.Cu")
 		(uuid "da6c44d7-5dbe-4a5a-8da1-e9ac821780cb")
 		(at 158.05 38.25 -90)
@@ -9735,7 +9735,7 @@
 			(uuid "680d7e53-b9d8-463b-8b6d-faef1b731ccd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9747,7 +9747,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "dd8fc607-bbc7-4527-921f-df0aa0bd151a")
 		(at 97.83 129.45 -90)
@@ -10037,7 +10037,7 @@
 			(uuid "2b056ccc-afef-42cb-84a4-4dd6ad95b62f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10049,7 +10049,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinHeader_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e00cacb2-49e7-419e-a005-43a043dc64c6")
 		(at 127.265 127.75 -90)
@@ -10337,7 +10337,7 @@
 			(uuid "f2b2bb46-ffa3-4acf-808c-a2804387bc5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x02_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_2x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10349,7 +10349,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0402_1005Metric"
+	(footprint "PicoBreadboard:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e1f9a41f-dfff-4edf-a15e-e1f38687739c")
 		(at 145.2625 106.35 90)
@@ -10563,7 +10563,7 @@
 			(uuid "c932664e-c6a3-485f-aeca-be3352900718")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10575,7 +10575,7 @@
 			)
 		)
 	)
-	(footprint "Library:Fiducial_1mm_Mask2mm"
+	(footprint "PicoBreadboard:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "f4dadbcd-2fc9-46d9-8564-31698b161733")
 		(at 168.6375 38.35)
@@ -10680,7 +10680,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:R_0402_1005Metric"
+	(footprint "PicoBreadboard:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f94685c7-172f-4747-b131-6dbdfdb29ae5")
 		(at 145.0625 99.35 90)
@@ -10894,7 +10894,7 @@
 			(uuid "bd3e3284-1757-4dba-877f-ae97f2384f9e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/R_0402_1005Metric.wrl"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10906,7 +10906,7 @@
 			)
 		)
 	)
-	(footprint "Library:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+	(footprint "PicoBreadboard:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
 		(uuid "ff5f06cd-eb07-42bb-9373-0e691a15fdf2")
 		(at 174.05 117.05 90)
@@ -11396,7 +11396,7 @@
 			(uuid "a9db1874-5c4f-4012-b0bf-42e1ffb8fe41")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/Library.3dmodels/EC11_Rotary_Encoder_Switched.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.step"
 			(offset
 				(xyz 7.5 -2.5 0)
 			)
@@ -11408,7 +11408,7 @@
 			)
 		)
 	)
-	(footprint "Library:LOGO"
+	(footprint "PicoBreadboard:QR_Code_GitHub_Repo"
 		(layer "B.Cu")
 		(uuid "1d27943d-f155-4f5f-ae92-757aae672f98")
 		(at 169.45 86.906646 180)
@@ -11425,7 +11425,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "QR_Code_GitHub_Repo"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -12477,7 +12477,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:LOGO"
+	(footprint "PicoBreadboard:Logo_ROMER"
 		(layer "B.Cu")
 		(uuid "2c3f0431-9983-4615-adb8-32fb0f98343c")
 		(at 142.65 50.85 180)
@@ -12494,7 +12494,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "Logo_ROMER"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -14002,7 +14002,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:KiCad-Logo2_5mm_SilkScreen"
+	(footprint "PicoBreadboard:KiCad-Logo2_5mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "660dd913-4d12-4205-bb8c-05a4fbb31e47")
 		(at 135 86.85 180)
@@ -14062,7 +14062,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -14686,7 +14686,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:MountingHole_3mm"
+	(footprint "PicoBreadboard:MountingHole_3mm"
 		(layer "B.Cu")
 		(uuid "71042d8a-8f26-411c-bdc3-a6a18066a2da")
 		(at 87.65 35.85 180)
@@ -14817,7 +14817,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:LOGO"
+	(footprint "PicoBreadboard:Logo_KiCad"
 		(layer "B.Cu")
 		(uuid "7c068163-8b2a-494d-a10c-1b2ec7abcd33")
 		(at 98.15 68.85 180)
@@ -14834,7 +14834,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "Logo_KiCad"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -15002,7 +15002,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:OSHW-Logo_11.4x12mm_SilkScreen"
+	(footprint "PicoBreadboard:OSHW-Logo_11.4x12mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "858cb93a-cd5c-46ae-81b2-7596fe2dfc84")
 		(at 99.663717 86.89912 180)
@@ -15062,7 +15062,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -15575,7 +15575,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:LOGO"
+	(footprint "PicoBreadboard:Logo_METU"
 		(layer "B.Cu")
 		(uuid "ada77228-342d-425b-969f-867560213bd1")
 		(at 163.9 68.85 180)
@@ -15592,7 +15592,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "Logo_METU"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -15909,7 +15909,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:LOGO"
+	(footprint "PicoBreadboard:QR_Code_Plain"
 		(layer "B.Cu")
 		(uuid "eebe00e5-dd71-4dec-9c97-2bc3ae6dc075")
 		(at 99.65 50.85 180)
@@ -15926,7 +15926,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LOGO"
+		(property "Value" "QR_Code_Plain"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)

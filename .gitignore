@@ -8,6 +8,10 @@
 _pcbnew/
 _autosave-*
 
+# KiCad lock files and local history (KiCad 10)
+*.lck
+.history/
+
 # Project-specific cache and user files
 fp-info-cache
 sym-lib-table-bak
