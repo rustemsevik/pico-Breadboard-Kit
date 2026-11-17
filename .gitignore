@@ -1,73 +1,52 @@
 # -----------------------------------------------------------------------------
-# KiCad project .gitignore
-# Based on official KiCad GitHub recommendations + your custom ignores
+# Pico Breadboard Kit .gitignore (KiCad 10)
 # -----------------------------------------------------------------------------
 
-# Backup folders
+# KiCad backups, autosave, lock files and local history
 *-backups/
-_pcbnew/
 _autosave-*
-
-# KiCad lock files and local history (KiCad 10)
 *.lck
 .history/
+_pcbnew/
 
-# Project-specific cache and user files
+# KiCad per-user and cache files
 fp-info-cache
-sym-lib-table-bak
 *.kicad_prl
-*.kicad_wks
 *.kicad_bak
 *.kicad_sch-bak
 *.sch-bak
+sym-lib-table-bak
 *.bak
 *.bck
 *.tmp
 
-# Generated netlists and BOMs
+# Netlists, simulation and autorouter files
 *.net
 *.xml
-*.csv
-*.tsv
-
-# Autorouter / simulation / temp files
 *.dsn
 *.ses
-*.cache
-*.cache.lib
-*.dcm
-*.lib
-*.mod
+*.cir
+*.raw
 *.log
-*.aux
-*.b#*
-*.cmp
-*.err
-*.map
 *.rpt
 
-# Gerber, drill, and manufacturing outputs
+# Manufacturing outputs: ignored everywhere ...
 *.gbr
-*.gb*
+*.gbrjob
 *.drl
-*.dri
-*.plt
 *.pos
 *.csv
 *.zip
-*.tar.gz
-*.tar.bz2
-*.tar.xz
+GERBER/
 
-# Simulation data
-*.raw
-*.sw0
-*.sw1
-*.sw2
-*.cir
-*.out
+# ... except the published copies in fabrication/ and docs/
+!fabrication/**
+!docs/**
 
-# -----------------------------------------------------------------------------
-# End of file
-# -----------------------------------------------------------------------------
+# Local release staging (assets uploaded to GitHub Releases)
+dist/
 
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*~

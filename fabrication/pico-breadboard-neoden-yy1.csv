@@ -1,0 +1,30 @@
+NEODEN,YY1,P&P FILE,,,,,,,,,,
+,,,,,,,,,,,,
+PanelizedPCB,UnitLength,0,UnitWidth,0,Rows,1,Columns,1,,,,
+,,,,,,,,,,,,
+Fiducial,1-X,0,1-Y,0,OverallOffsetX,0.08,OverallOffsetY,0.18,,,,
+,,,,,,,,,,,,
+NozzleChange,OFF,BeforeComponent,1,Head1,Drop,Station2,PickUp,Station1,,,,
+NozzleChange,OFF,BeforeComponent,2,Head2,Drop,Station3,PickUp,Station2,,,,
+NozzleChange,OFF,BeforeComponent,1,Head1,Drop,Station1,PickUp,Station1,,,,
+NozzleChange,OFF,BeforeComponent,1,Head1,Drop,Station1,PickUp,Station1,,,,
+,,,,,,,,,,,,
+Designator,Comment,Footprint,Mid X,Mid Y,Rotation,Head,FeederNo,Mount Speed (%),Pick Height(mm),Place Height(mm),Mode,Skip
+FID1,Fiducial,Fiducial_1mm_Mask2mm,20.65,3.4,0,0,0,100,0,0,1,0
+FID2,Fiducial,Fiducial_1mm_Mask2mm,92.178572,8.75,0,0,0,100,0,0,1,0
+FID3,Fiducial,Fiducial_1mm_Mask2mm,83.9875,94.5,0,0,0,100,0,0,1,0
+FID4,Fiducial,Fiducial_1mm_Mask2mm,16.25,94.5,0,0,0,100,0,0,1,0
+LED1,LED,LE0603D,58.2125,30,180,0,0,100,0,0,1,0
+LED2,LED,LE0603D,58.2125,23,180,0,0,100,0,0,1,0
+LED3,LED,LE0603D,58.2125,16,180,0,0,100,0,0,1,0
+LED4,LED,LE0603D,58.2125,9,180,0,0,100,0,0,1,0
+Q1,BC817,SOT_23,68.4,13.1375,90,0,0,100,0,0,1,0
+R1,R_US,0402D,60.4125,33.5,90,0,0,100,0,0,1,0
+R2,R_US,0402D,60.6125,26.5,90,0,0,100,0,0,1,0
+R3,R_US,0402D,60.6125,19.5,90,0,0,100,0,0,1,0
+R4,R_US,0402D,60.6125,12.5,90,0,0,100,0,0,1,0
+R9,1K,0402D,67.4,9.4,90,0,0,100,0,0,1,0
+SW1,SW_SPST,SW_SPST_PTS810,66.799293,3.974293,180,0,0,100,0,0,1,0
+SW2,SW_SPST,SW_SPST_PTS810,78.799293,11.974293,180,0,0,100,0,0,1,0
+SW3,SW_SPST,SW_SPST_PTS810,78.799293,3.974293,180,0,0,100,0,0,1,0
+SW4,SW_SPST,SW_SPST_PTS810,90.799293,3.974293,180,0,0,100,0,0,1,0

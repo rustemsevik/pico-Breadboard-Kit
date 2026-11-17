@@ -55,6 +55,7 @@
 		)
 		(capping no)
 		(filling no)
+		(aux_axis_origin 84.65 132.85)
 		(grid_origin 84.65 39.85)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -14817,7 +14818,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PicoBreadboard:Logo_KiCad"
+	(footprint "PicoBreadboard:Logo_DesignedBy"
 		(layer "B.Cu")
 		(uuid "7c068163-8b2a-494d-a10c-1b2ec7abcd33")
 		(at 98.15 68.85 180)
@@ -14834,7 +14835,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Logo_KiCad"
+		(property "Value" "Logo_DesignedBy"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -15909,7 +15910,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PicoBreadboard:QR_Code_Plain"
+	(footprint "PicoBreadboard:QR_Code_ROMER_Website"
 		(layer "B.Cu")
 		(uuid "eebe00e5-dd71-4dec-9c97-2bc3ae6dc075")
 		(at 99.65 50.85 180)
@@ -15926,7 +15927,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "QR_Code_Plain"
+		(property "Value" "QR_Code_ROMER_Website"
 			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
