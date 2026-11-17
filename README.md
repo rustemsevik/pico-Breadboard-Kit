@@ -74,7 +74,7 @@ After changing the design, regenerate everything in `fabrication/` and `docs/` w
 scripts/export.sh
 ```
 
-The script needs `kicad-cli` from KiCad 10. It runs ERC/DRC first and reports any errors; use `--strict` to stop on errors. The Neoden YY1 file contains machine feeder settings and is maintained by hand.
+The script needs `kicad-cli` from KiCad 10 or newer. It runs ERC/DRC first and reports any errors; use `--strict` to stop on errors. The Neoden YY1 file contains machine feeder settings and is maintained by hand.
 
 ## Previous Versions
 

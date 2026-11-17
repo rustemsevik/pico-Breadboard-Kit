@@ -5,7 +5,7 @@
 #   fabrication/  gerber + drill zip, BOM, pick-and-place (top, SMD only)
 #   docs/         schematic PDF + SVG, top and bottom 3D renders
 #
-# Requires kicad-cli from KiCad 10.
+# Requires kicad-cli from KiCad 10 or newer.
 # Usage:  scripts/export.sh            # export, report ERC/DRC results
 #         scripts/export.sh --strict   # stop if ERC or DRC reports errors
 # -----------------------------------------------------------------------------
@@ -22,8 +22,13 @@ NAME="pico-breadboard"
 SCH="$HW/$NAME.kicad_sch"
 PCB="$HW/$NAME.kicad_pcb"
 
-command -v kicad-cli >/dev/null || { echo "kicad-cli not found (install KiCad 10)"; exit 1; }
-echo "Using $(kicad-cli version | head -1) (KiCad 10 required)"
+command -v kicad-cli >/dev/null || { echo "kicad-cli not found (install KiCad 10 or newer)"; exit 1; }
+KICAD_VERSION="$(kicad-cli version | head -1)"
+KICAD_MAJOR="${KICAD_VERSION%%.*}"
+if ! [[ "$KICAD_MAJOR" =~ ^[0-9]+$ ]] || (( KICAD_MAJOR < 10 )); then
+    echo "KiCad $KICAD_VERSION found; KiCad 10 or newer is required"; exit 1
+fi
+echo "Using KiCad $KICAD_VERSION"
 
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
@@ -81,8 +86,8 @@ mv "$TMP/svg/$NAME.svg" "$DOCS/schematic.svg"
 # soft around each part instead of long streaks in four directions.
 echo "== Renders"
 RCFG="$TMP/render-config"
-mkdir -p "$RCFG/10.0"
-cp "$ROOT/scripts/render-3d_viewer.json" "$RCFG/10.0/3d_viewer.json"
+mkdir -p "$RCFG/$KICAD_MAJOR.0"   # KiCad reads settings from <major>.0/
+cp "$ROOT/scripts/render-3d_viewer.json" "$RCFG/$KICAD_MAJOR.0/3d_viewer.json"
 for side in top bottom; do
     out="$DOCS/render.png"; [[ $side == bottom ]] && out="$DOCS/render-bottom.png"
     KICAD_CONFIG_HOME="$RCFG" kicad-cli pcb render --side "$side" \
