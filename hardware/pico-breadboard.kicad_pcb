@@ -235,7 +235,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x12_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x12_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "03ca0df5-276c-4449-8539-5409fbdff700")
 		(at 110.475 38.25 90)
@@ -703,7 +703,7 @@
 			(uuid "1490594f-5492-4882-9005-6d3d8c9ea041")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x12_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2936,7 +2936,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x11_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x11_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3dfc821d-aedb-4ff1-8737-081223b23e7a")
 		(at 109.88 97.85 90)
@@ -3382,7 +3382,7 @@
 			(uuid "4f4dea41-1ab3-4599-aef9-c1a4eb39911a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x11_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x11_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3411,7 +3411,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "2c21b522-89dc-40b9-b9a9-7e6fd1267551")
@@ -3618,7 +3618,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x05_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4608c26d-ccb2-46e2-a60c-c4fbc8d77767")
 		(at 151.69 98.05 90)
@@ -3932,7 +3932,7 @@
 			(uuid "4ac23424-9ae1-407e-b6e0-b14a4da83830")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x05_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5660,7 +5660,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
+	(footprint "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical_NoPin1Mark"
 		(layer "F.Cu")
 		(uuid "6cc9f13a-1ce7-4239-8d77-9752c48dcd40")
 		(at 131.61 129.35 90)
@@ -5952,7 +5952,7 @@
 			(uuid "69187cab-b4d2-41c1-8ffb-54292345261a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6315,7 +6315,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6e4c6a1d-bfc2-40f2-a1fa-51b6c9a3bcf3")
 		(at 89.15 82.85)
@@ -6627,7 +6627,7 @@
 			(uuid "c7dbd59d-1849-4bf0-8f24-cabf486fb192")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6639,7 +6639,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
+	(footprint "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical_NoPin1Mark"
 		(layer "F.Cu")
 		(uuid "86b7b7c1-cf77-4fd8-a8a1-726758247f28")
 		(at 120.37 129.45 -90)
@@ -6931,7 +6931,7 @@
 			(uuid "4bb8fe71-cd72-4ed3-bf31-1d6043aa309e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8099,7 +8099,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ba430f29-bb68-44d9-b735-92d75387171b")
 		(at 89.15 64.85)
@@ -8411,7 +8411,7 @@
 			(uuid "5885fcf8-30e5-4670-ba8d-c78f1f219e1c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9120,7 +9120,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cfa9773d-9469-48a1-8a8a-d7de7c31e2a6")
 		(at 89.15 46.85)
@@ -9432,7 +9432,7 @@
 			(uuid "4b3c1a65-7122-4146-a4ab-f238cc33672c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9444,7 +9444,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
+	(footprint "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical_NoPin1Mark"
 		(layer "F.Cu")
 		(uuid "da6c44d7-5dbe-4a5a-8da1-e9ac821780cb")
 		(at 158.05 38.25 -90)
@@ -9736,7 +9736,7 @@
 			(uuid "680d7e53-b9d8-463b-8b6d-faef1b731ccd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9748,7 +9748,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_1x03_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "dd8fc607-bbc7-4527-921f-df0aa0bd151a")
 		(at 97.83 129.45 -90)
@@ -10038,7 +10038,7 @@
 			(uuid "2b056ccc-afef-42cb-84a4-4dd6ad95b62f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10050,7 +10050,7 @@
 			)
 		)
 	)
-	(footprint "PicoBreadboard:PinHeader_2x02_P2.54mm_Vertical"
+	(footprint "PicoBreadboard:PinSocket_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e00cacb2-49e7-419e-a005-43a043dc64c6")
 		(at 127.265 127.75 -90)
@@ -10338,9 +10338,9 @@
 			(uuid "f2b2bb46-ffa3-4acf-808c-a2804387bc5e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_2x02_P2.54mm_Vertical.step"
+		(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_2x02_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.54 0 0)
 			)
 			(scale
 				(xyz 1 1 1)

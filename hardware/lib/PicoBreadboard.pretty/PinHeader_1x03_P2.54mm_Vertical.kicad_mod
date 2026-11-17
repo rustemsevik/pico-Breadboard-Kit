@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_01x03"
+	(property "Value" "PinHeader_1x03_P2.54mm_Vertical"
 		(at 0 7.41 180)
 		(layer "F.Fab")
 		(hide yes)

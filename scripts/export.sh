@@ -75,10 +75,19 @@ kicad-cli sch export svg -o "$TMP/svg" "$SCH" >/dev/null
 mv "$TMP/svg/$NAME.svg" "$DOCS/schematic.svg"
 
 # --- 3D renders --------------------------------------------------------------
+# Raytraced with the colour preset in scripts/render-3d_viewer.json (isolated
+# config, so personal KiCad settings don't change the result).
+# Top-down view; side lights raised to 75 degrees so shadows stay short and
+# soft around each part instead of long streaks in four directions.
 echo "== Renders"
+RCFG="$TMP/render-config"
+mkdir -p "$RCFG/10.0"
+cp "$ROOT/scripts/render-3d_viewer.json" "$RCFG/10.0/3d_viewer.json"
 for side in top bottom; do
     out="$DOCS/render.png"; [[ $side == bottom ]] && out="$DOCS/render-bottom.png"
-    kicad-cli pcb render --side "$side" --quality high --background opaque \
+    KICAD_CONFIG_HOME="$RCFG" kicad-cli pcb render --side "$side" \
+        --quality user --preset readme --background opaque \
+        --light-side-elevation 75 \
         -w 1800 -h 1400 --zoom 0.9 -o "$out" "$PCB" >/dev/null
 done
 

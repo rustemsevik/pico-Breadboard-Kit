@@ -6814,7 +6814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x11_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x11_P2.54mm_Vertical"
 			(at 218.44 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7236,7 +7236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_2x02_P2.54mm_Vertical"
 			(at 200.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7324,7 +7324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical_NoPin1Mark"
 			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical"
 			(at 223.52 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8288,7 +8288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical_NoPin1Mark"
 			(at 168.91 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8611,7 +8611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9011,7 +9011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical_NoPin1Mark"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical_NoPin1Mark"
 			(at 223.52 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9281,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 35.56 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9771,7 +9771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x03_P2.54mm_Vertical"
 			(at 255.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10090,7 +10090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x05_P2.54mm_Vertical"
 			(at 254 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10345,7 +10345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x04_P2.54mm_Vertical"
 			(at 255.27 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10756,7 +10756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PicoBreadboard:PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "PicoBreadboard:PinSocket_1x12_P2.54mm_Vertical"
 			(at 180.34 121.92 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "version": 4
+  },
+  "render": {
+    "engine": 1,
+    "raytrace_shadows": true,
+    "raytrace_post_processing": false,
+    "raytrace_backfloor": false,
+    "raytrace_anti_aliasing": true,
+    "raytrace_reflections": true,
+    "raytrace_refractions": true,
+    "raytrace_procedural_textures": true
+  },
+  "layer_presets": [
+    {
+      "name": "readme",
+      "colors": [
+        {
+          "layer": "background_top",
+          "color": "rgb(71, 71, 71)"
+        },
+        {
+          "layer": "background_bottom",
+          "color": "rgb(71, 71, 71)"
+        },
+        {
+          "layer": "board",
+          "color": "rgba(51, 43, 23, 0.9)"
+        },
+        {
+          "layer": "copper",
+          "color": "rgb(220, 180, 70)"
+        },
+        {
+          "layer": "copper_bottom",
+          "color": "rgb(220, 180, 70)"
+        },
+        {
+          "layer": "silkscreen_top",
+          "color": "rgb(245, 245, 245)"
+        },
+        {
+          "layer": "silkscreen_bottom",
+          "color": "rgb(245, 245, 245)"
+        },
+        {
+          "layer": "soldermask_top",
+          "color": "rgba(0, 85, 15, 0.9)"
+        },
+        {
+          "layer": "soldermask_bottom",
+          "color": "rgba(0, 85, 15, 0.9)"
+        },
+        {
+          "layer": "solderpaste",
+          "color": "rgb(128, 128, 128)"
+        },
+        {
+          "layer": "plated_barrels",
+          "color": "rgb(220, 180, 70)"
+        }
+      ],
+      "layers": [
+        "board",
+        "plated_barrels",
+        "copper",
+        "copper_bottom",
+        "silkscreen_top",
+        "silkscreen_bottom",
+        "soldermask_top",
+        "soldermask_bottom",
+        "solderpaste",
+        "fp_text",
+        "fp_references",
+        "th_models",
+        "smd_models",
+        "virtual_models",
+        "non_pos_file_models"
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
-(footprint "PinHeader_1x11_P2.54mm_Vertical"
+(footprint "PinSocket_1x11_P2.54mm_Vertical"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Through hole straight pin header, 1x11, 2.54mm pitch, single row")
-	(tags "Through hole pin header THT 1x11 2.54mm single row")
+	(descr "Through hole straight socket strip (female), 1x11, 2.54mm pitch, single row")
+	(tags "Through hole socket strip THT 1x11 2.54mm single row")
 	(property "Reference" "REF**"
 		(at 0 -2.33 0)
 		(layer "F.SilkS")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Conn_01x11"
+	(property "Value" "PinSocket_1x11_P2.54mm_Vertical"
 		(at 0 27.73 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" "PicoBreadboard:PinHeader_1x11_P2.54mm_Vertical"
+	(property "Footprint" "PicoBreadboard:PinSocket_1x11_P2.54mm_Vertical"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -419,7 +419,7 @@
 		)
 		(uuid "a1de8efe-b8e4-491a-9bbd-84730c028f1d")
 	)
-	(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinHeader_1x11_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/lib/PicoBreadboard.3dshapes/PinSocket_1x11_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)
