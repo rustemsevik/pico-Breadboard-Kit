@@ -13,7 +13,7 @@
 "J13","Polarity Select","PicoBreadboard:PinHeader_2x02_P2.54mm_Vertical","1"
 "LED1-LED4","LED","PicoBreadboard:LED_0603_1608Metric","4"
 "Q1","BC817","PicoBreadboard:SOT-23","1"
-"R1-R4","R_US","PicoBreadboard:R_0402_1005Metric","4"
+"R1-R4","1k","PicoBreadboard:R_0402_1005Metric","4"
 "R9","1K","PicoBreadboard:R_0402_1005Metric","1"
 "RV1","R_Potentiometer","PicoBreadboard:Potentiometer_Omeg_PC16BU_Horizontal","1"
 "SW1-SW4","SW_SPST","PicoBreadboard:SW_SPST_PTS810","4"

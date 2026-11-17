@@ -2601,7 +2601,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8911,7 +8911,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10367,7 +10367,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at -7 9.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at -7 9.17 90)
 			(layer "F.Fab")
 			(hide yes)
